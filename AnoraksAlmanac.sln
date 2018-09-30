@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnoraksAlmanac", "AnoraksAlmanac\AnoraksAlmanac.csproj", "{3DD93DE0-14D1-464A-8626-651F40E7C525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnoraksAlmanacApi", "AnoraksAlmanac\AnoraksAlmanacApi.csproj", "{3DD93DE0-14D1-464A-8626-651F40E7C525}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnoraksAlmanacSite", "AnoraksAlmanacSite\AnoraksAlmanacSite.csproj", "{CD00E15F-785A-44B8-965B-C1E1284AD06C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Common", "0 - Common", "{2CCEDA92-61E1-41C4-AB43-4BBFE7DE6AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{887F4DF7-A91D-417F-80EA-D51FB75858A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Apps", "2 - Apps", "{8BE90309-810E-48F4-A320-6E1FF4C43B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnoraksAlmanacModel", "AnoraksAlmanacModel\AnoraksAlmanacModel.csproj", "{EA4323FA-3ADA-4EE8-8B89-D51D6CA4DCC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnoraksAlmanacDAL", "AnoraksAlmanacDAL\AnoraksAlmanacDAL.csproj", "{E667A00F-4140-4D4E-9189-C15F580BD060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,27 @@ Global
 		{3DD93DE0-14D1-464A-8626-651F40E7C525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD93DE0-14D1-464A-8626-651F40E7C525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD93DE0-14D1-464A-8626-651F40E7C525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD00E15F-785A-44B8-965B-C1E1284AD06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD00E15F-785A-44B8-965B-C1E1284AD06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD00E15F-785A-44B8-965B-C1E1284AD06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD00E15F-785A-44B8-965B-C1E1284AD06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4323FA-3ADA-4EE8-8B89-D51D6CA4DCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4323FA-3ADA-4EE8-8B89-D51D6CA4DCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4323FA-3ADA-4EE8-8B89-D51D6CA4DCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4323FA-3ADA-4EE8-8B89-D51D6CA4DCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E667A00F-4140-4D4E-9189-C15F580BD060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E667A00F-4140-4D4E-9189-C15F580BD060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E667A00F-4140-4D4E-9189-C15F580BD060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E667A00F-4140-4D4E-9189-C15F580BD060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DD93DE0-14D1-464A-8626-651F40E7C525} = {887F4DF7-A91D-417F-80EA-D51FB75858A8}
+		{CD00E15F-785A-44B8-965B-C1E1284AD06C} = {8BE90309-810E-48F4-A320-6E1FF4C43B66}
+		{EA4323FA-3ADA-4EE8-8B89-D51D6CA4DCC1} = {2CCEDA92-61E1-41C4-AB43-4BBFE7DE6AB8}
+		{E667A00F-4140-4D4E-9189-C15F580BD060} = {2CCEDA92-61E1-41C4-AB43-4BBFE7DE6AB8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4F9C22A-2B6D-4BCC-8D5C-071491275491}

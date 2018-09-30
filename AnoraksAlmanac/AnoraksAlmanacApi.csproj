@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>AnoraksAlmanacApi</AssemblyName>
+    <RootNamespace>AnoraksAlmanacApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +12,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AnoraksAlmanacModel\AnoraksAlmanacModel.csproj" />
   </ItemGroup>
 
 </Project>

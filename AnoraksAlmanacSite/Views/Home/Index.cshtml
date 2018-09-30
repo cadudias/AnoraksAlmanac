@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    @foreach (var movie in ViewBag.movies)
+        {
+            <p>@movie.Title</p>
+        }
+</div>
