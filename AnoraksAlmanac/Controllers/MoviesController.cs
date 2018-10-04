@@ -16,9 +16,12 @@ namespace AnoraksAlmanacApi.Controllers
     {
         private HttpClient client = new HttpClient();
         private IConfiguration _configuration;
+        //private readonly IMovieService _service;
 
         public MoviesController(IConfiguration configuration)
         {
+            //_service = service;
+
             _configuration = configuration;
 
             client.BaseAddress = new Uri(_configuration.GetSection("TheMovieDBApi:BaseURL").Value);
